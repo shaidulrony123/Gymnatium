@@ -1,0 +1,207 @@
+@media (min-width: 1400px) {}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+
+    /* menu part start */
+    .main_menu {
+        top: 0;
+        background: #e23e38;
+    }
+    .main_menu .navbar-brand {
+        width: 180px;
+        height: 50px;
+        line-height: 43px;
+    }
+    .main_menu button i{
+        color: #fff;
+    }
+    .main_menu .navbar-toggler:focus{
+        box-shadow: 0 0 0 0;
+    }
+    .main_menu #navbarSupportedContent{
+        background: #e23e38;
+        text-align: center;
+    }
+
+    .main_menu ul li a::after {
+       display: none;
+    }
+    .main_menu ul li a {
+        line-height: 37px;
+    }
+    .main_menu ul li a:focus{
+        color: #222;
+    }
+
+    /* menu part end */
+
+    /* banner part start */
+
+    .banner_text h2::before,
+    .banner_text h2::after ,
+    .banner_text h1::before,
+    .banner_text h1::after ,
+    .banner_text p::before,
+    .banner_text p::after {
+        display: none;
+    }
+    .banner_items {
+        padding: 110px 0 70px;
+    }
+    .banner_text h2 {
+        font-size: 22px;
+    }
+    .banner_text h1 {
+        font-size: 35px;
+    }
+    .banner_text a {
+        margin: 23px 0 0 5px;
+        font-size: 12px;
+    }
+    #banner .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+    #banner .slick-dots li button {
+        height: 10px;
+        width: 10px;
+        margin: 0 3px;
+    }
+
+    /* banner part end */
+
+
+
+    /* about part start */
+    #about {
+        padding: 43px 0;
+    }
+    .about_text p {
+        text-align: justify;
+        padding-bottom: 24px;
+    }
+    .about_text p span {
+        padding-top: 10px;
+    }
+
+    /* about part end */
+
+    /* gallery part start */
+    .gal_img:nth-child(2),
+    .gal_img:nth-child(4){
+        margin-bottom: 24px;
+    }
+    #gallery {
+        padding-bottom: 43px;
+    }
+
+    /* gallery part end */
+
+    /* team part start */
+    #team {
+        padding-bottom: 15px;
+    }
+    .team_main{
+        transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -o-transform: translateY(-30px);
+    }
+    .team_main .team_img .overly {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    .team_main .team_text p {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    .team_main .team_text {
+        border-color: #dddddd;
+    }
+    
+
+    /* team part end */
+
+    /* testimobial part start */
+    #testimonial .slick-dots li.slick-active button {
+        width: 15px;
+        height: 15px;
+    }
+    #testimonial .slick-dots li button {
+        height: 10px;
+        width: 10px;
+        margin: 0 3px;
+    }
+
+    /* testimobial part end */
+
+    /* membership part start */
+    #membership {
+        padding: 43px 0 50px;
+    }
+    .member_inner h3 {
+        padding: 13px 0;
+        font-size: 14px;
+    }
+    .member_inner h2 {
+        padding: 20px 0;
+        font-size: 35px;
+    }
+    .member_inner h2 span {
+        font-size: 22px;
+    }
+    .list_item ul li {
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+    .list_item {
+        padding-top: 17px;
+    }
+    .member_inner a {
+        padding: 7px 0;
+        font-size: 14px;
+    }
+
+    /* membership part end */
+
+    /* counter part start */
+    .count_text h3 {
+        font-size: 17px;
+    }
+    .count_text p {
+        font-size: 12px;
+    }
+
+    /* counter part end */
+
+    /* classes part start */
+    #classes {
+        padding: 43px 0;
+    }
+
+    /* classes part end */
+
+    /* menu part start */
+
+    /* menu part end */
+
+    /* menu part start */
+
+    /* menu part end */
+
+}

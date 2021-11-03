@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?88dc80f179d0f549382dd552155cc1f9") format("truetype"),
+url("./flaticon.woff?88dc80f179d0f549382dd552155cc1f9") format("woff"),
+url("./flaticon.woff2?88dc80f179d0f549382dd552155cc1f9") format("woff2"),
+url("./flaticon.eot?88dc80f179d0f549382dd552155cc1f9#iefix") format("embedded-opentype"),
+url("./flaticon.svg?88dc80f179d0f549382dd552155cc1f9#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-buddhist-yoga-pose:before {
+    content: "\f101";
+}
+.flaticon-man-lifting-weight:before {
+    content: "\f102";
+}
+.flaticon-weightlifting:before {
+    content: "\f103";
+}
+.flaticon-stretching-exercises:before {
+    content: "\f104";
+}
+.flaticon-exercise:before {
+    content: "\f105";
+}
+.flaticon-fitness:before {
+    content: "\f106";
+}
